@@ -1,0 +1,649 @@
+/*
+    For some reasion my css is automaticaly indenting it self to This 
+
+    |||||||||||||||||||||||||||||||||||||
+        |||||||||||||||||||||||||||||
+            |||||||||||||||||||||
+                |||||||||||||
+                    ||||||
+                      ||
+                         
+*/
+
+
+/*
+   Add all the effect to the whole website
+*/
+                
+                body,
+                html {
+                    scroll-behavior: smooth;
+                    margin: 0 auto;
+                    font-family: Arial, Helvetica, sans-serif;
+                    overflow-x: hidden;
+                    padding: 0;
+                    height: 100%;
+                    min-height: 100%;
+                    background: linear-gradient( rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../images/background.jpg");
+                    background-size: cover;
+                    background-attachment: fixed;
+                }
+                /*
+    desging the header, that is behind the nav and logo
+*/
+                
+                header {
+                    margin-top: 30px;
+                    background-color: #000;
+                    width: 100%;
+                    height: 120px;
+                }
+                /*
+    class yellow is used for a span to change the color to yellow
+*/
+                
+                .yellow {
+                    color: #ffad08;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 50px;
+                    margin: 0 auto;
+                    border-radius: 100px;
+                }
+                /*
+    logo is desging the logo
+*/
+                
+                .logo {
+                    color: white;
+                    float: left;
+                    margin-left: 140px;
+                    font-size: 40px;
+                    margin-top: 25px;
+                }
+                /*
+    nav is setting the position of the nav bar on the webpage
+*/
+                
+                nav {
+                    float: left;
+                    margin-left: 280px;
+                    margin-top: 20px;
+                }
+                /*
+    nav ul is removing the bolts beside the nav bar
+*/
+                
+                nav ul {
+                    list-style: none;
+                }
+                /*
+    nav li is desging the nav bar and aliging the text in the center.
+*/
+                
+                nav li {
+                    display: inline;
+                    text-align: justify;
+                }
+                /*
+    nav a is desgine the text in the nav bar and ploting text on the webpage
+*/
+                
+                nav a {
+                    float: left;
+                    display: block;
+                    color: #f2f2f2;
+                    text-align: center;
+                    padding: 14px 16px;
+                    text-decoration: none;
+                    font-size: 17px;
+                }
+                /*
+    nav a:hover is giving an effect to the nav bar when hover
+*/
+                
+                nav a:hover {
+                    color: #ffad08;
+                }
+                /*
+    setting the img position and side
+*/
+                
+                #slide_content img {
+                    max-width: 400px;
+                    float: left;
+                    margin-left: 100px;
+                }
+                /*
+    ploting the text and desging the text on the webpage
+*/
+                
+                #slide {
+                    color: #fff;
+                    font-size: 25px;
+                    max-width: 1200px;
+                    float: left;
+                    letter-spacing: 1px;
+                    margin-left: 630px;
+                    margin-top: -350px;
+                    line-height: 30px;
+                }
+                /*
+    desging the button in the slide area
+*/
+                
+                .slide_button {
+                    background-color: #ffad08;
+                    border: none;
+                    color: #000;
+                    padding: 15px 32px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 16px;
+                }
+                
+                #about {
+                    background-color: white;
+                    max-width: 100%;
+                    height: 450px;
+                    margin-top: 600px;
+                }
+                /*
+    desging the left yellow box
+*/
+                
+                #left {
+                    max-width: 48%;
+                    float: left;
+                    margin-left: 40px;
+                    margin-top: -50px;
+                    height: 500px;
+                    background-color: #000;
+                }
+                /*
+    inside the yellow box desging the header
+*/
+                
+                #left h1 {
+                    color: white;
+                    font-size: 60px;
+                    margin-left: 30px;
+                }
+                /*
+    inside the yellow box desging the paragraph tag
+*/
+                
+                #left p {
+                    color: white;
+                    margin-left: 30px;
+                    width: 550px;
+                    text-align: justify;
+                    line-height: 20px;
+                    letter-spacing: 2px;
+                }
+                /*
+    inside the yellow box desging the button
+*/
+                
+                #left button {
+                    background-color: #ffad08;
+                    border: none;
+                    color: #000;
+                    padding: 15px 32px;
+                    text-align: center;
+                    text-decoration: none;
+                    margin-left: 30px;
+                    display: inline-block;
+                    font-size: 16px;
+                }
+                /*
+   desging the right black box
+*/
+                
+                #right {
+                    width: 46%;
+                    float: right;
+                    margin-right: 35.4px;
+                    height: 450px;
+                    background-color: #ffb400;
+                }
+                /*
+    inside the black box desging the header
+*/
+                
+                #right h2 {
+                    font-size: 60px;
+                    margin-left: 20px;
+                }
+                /*
+    inside the black box desging the list
+*/
+                
+                #right li {
+                    width: 500px;
+                    list-style-type: square;
+                    font-size: 15px;
+                    padding: 15px;
+                    margin-left: 10px;
+                    margin-top: -30;
+                }
+                
+                #food_menu {
+                    width: 100%;
+                    height: 300px;
+                    background-color: #f0f0f0;
+                }
+                /*
+    food option desging include header, text, transition and all effect. STARTS
+*/
+                
+                #food {
+                    float: left;
+                    width: 25%;
+                    background-color: #f0f0f0;
+                    height: 100%;
+                    transition: 0.7s;
+                }
+                
+                #food h3 {
+                    font-size: 30px;
+                    margin-top: 40px;
+                    margin-left: 40px;
+                }
+                
+                #food p {
+                    width: 220px;
+                    margin-left: 40px;
+                    margin-top: -20px;
+                    text-align: justify;
+                    line-height: 20px;
+                    letter-spacing: 2px;
+                }
+                
+                #food1 {
+                    float: left;
+                    width: 25.8%;
+                    background-color: #f0f0f0;
+                    height: 100%;
+                    transition: 0.7s;
+                }
+                
+                #food1 h3 {
+                    font-size: 30px;
+                    margin-top: 40px;
+                    margin-left: 40px;
+                }
+                
+                #food1 p {
+                    width: 220px;
+                    margin-left: 40px;
+                    margin-top: -20px;
+                    text-align: justify;
+                    line-height: 20px;
+                    letter-spacing: 2px;
+                }
+                
+                #food2 {
+                    float: left;
+                    width: 25%;
+                    height: 100%;
+                    background-color: #f0f0f0;
+                    transition: 0.7s;
+                }
+                
+                #food2 h3 {
+                    font-size: 30px;
+                    margin-top: 40px;
+                    margin-left: 40px;
+                }
+                
+                #food2 p {
+                    width: 220px;
+                    margin-left: 40px;
+                    margin-top: -20px;
+                    text-align: justify;
+                    line-height: 20px;
+                    letter-spacing: 2px;
+                }
+                
+                #food3 {
+                    float: left;
+                    width: 24.2%;
+                    height: 100%;
+                    background-color: #f0f0f0;
+                    transition: 0.7s;
+                }
+                
+                #food3 h3 {
+                    font-size: 30px;
+                    margin-top: 40px;
+                    margin-left: 40px;
+                }
+                
+                #food3 p {
+                    width: 220px;
+                    margin-left: 40px;
+                    margin-top: -20px;
+                    text-align: justify;
+                    line-height: 20px;
+                    letter-spacing: 2px;
+                }
+                
+                #food:hover,
+                #food1:hover {
+                    background-color: #ffb400;
+                    color: #fff;
+                }
+                
+                #food2:hover,
+                #food3:hover {
+                    background-color: black;
+                    color: #ffb400;
+                }
+                /*
+    food option desging include header, text, transition and all effect. ENDS
+*/
+                /*
+    font-awesome icon desgine
+*/
+                
+                .fa {
+                    font-size: 50px;
+                    margin-top: 50px;
+                    margin-left: 40px;
+                }
+                /*
+    divide is creating space for circle
+*/
+                
+                #divide {
+                    width: 100%;
+                    height: 120px;
+                    background-color: #000;
+                }
+                /*
+    circle is giving a round space to the divider
+*/
+                
+                #circle {
+                    border: 1px solid;
+                    width: 200%;
+                    overflow-x: hidden;
+                    margin-left: -650;
+                    margin-top: -20px;
+                    height: 110px;
+                    border-radius: 100%;
+                    background: linear-gradient( rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../images/background.jpg");
+                    background-size: cover;
+                    background-attachment: fixed;
+                }
+                /*
+    content is the background for the footer
+                */
+                
+                #content {
+                    border: 1px solid;
+                    width: 100%;
+                    height: 400px;
+                    background-color: #000;
+                }
+
+                /*
+                    footer_text is desginging the text below the footer logo
+                */
+
+                #footer_text p {
+                    color: #fff;
+                    width: 350px;
+                    margin-top: 100px;
+                    text-align: justify;
+                    margin-left: 140px;
+                }
+
+                /*
+                    desgning the useful link section. START
+                */
+                #useful {
+                    color: #fff;
+                    float: left;
+                    margin-left: 550px;
+                    margin-top: -200px;
+                }
+                
+                #useful h3 {
+                    font-size: 25px;
+                }
+                
+                #useful li {
+                    padding: 5px;
+                }
+                
+                #useful a {
+                    text-align: center;
+                    padding: 14px 16px 10px;
+                    text-decoration: none;
+                    font-size: 17px;
+                }
+                
+                #useful a:hover {
+                    color: #ffb400;
+                }
+                /*
+                    desgning the useful link section. END
+                */
+                /*
+                    desging the subscribe section in the footer starts
+                */
+                
+                #subscribe {
+                    color: #fff;
+                    float: left;
+                    margin-left: 850px;
+                    margin-top: -205px;
+                }
+                
+                input {
+                    margin-left: -150px;
+                    margin-top: 80px;
+                    width: 200px;
+                    height: 30px;
+                    text-align: center;
+                }
+                
+                #signup {
+                    width: 200px;
+                    height: 30px;
+                    margin-top: 10px;
+                    margin-left: -5px;
+                    background-color: #ffb400;
+                    border: none;
+                    color: #000;
+                }
+                
+                #subscribe h3 {
+                    color: #fff;
+                    float: left;
+                    font-size: 30px;
+                }
+                /*
+                    desging the subscribe section in the footer ends
+                */
+
+                /*
+                    copyright footer desgine starts
+                */
+                #copyright {
+                    width: 100%;
+                    height: 80px;
+                    border: 1px solid;
+                    margin-top: 107px;
+                    background-color: #ffb400;
+                }
+                
+                #copyright p {
+                    text-align: center;
+                    margin-top: 30px;
+                    font-size: 20px;
+                }
+                
+                /*
+                   copyright footer desgine ends
+                */
+
+                .active {
+                    color: #ffb400;
+                }
+                
+                /*
+                    loading wheel desgine
+                */
+                #loading {
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    z-index: 1;
+                    width: 100px;
+                    height: 100px;
+                    margin: -75px 0 0 -75px;
+                    border: 16px solid #000;
+                    border-radius: 100%;
+                    border-top: 16px solid #ffb400;
+                    width: 120px;
+                    height: 120px;
+                    -webkit-animation: spin 2s linear infinite;
+                    animation: spin 2s linear infinite;
+                }
+                
+                /*
+                    degine for the about us page, like image and text beside the image starts
+                */
+                #about-us {
+                    border: 100%;
+                    height: 500px;
+                }
+                
+                #about-us img {
+                    width: 400px;
+                    float: left;
+                    margin-left: 100px;
+                    margin-top: 80px;
+                }
+                
+                #about_text {
+                    margin-left: 50px;
+                    margin-top: 40px;
+                    text-align: justify;
+                    letter-spacing: 2px;
+                    width: 650px;
+                    float: left;
+                }
+                 /*
+                    degine for the about us page, like image and text beside the image ends
+                */
+                
+               
+                /* Animation for the loading circle *This might look similar to the W3 school because i user the website loader as referanced: * */
+                
+                @-webkit-keyframes spin {
+                    0% {
+                        -webkit-transform: rotate(0deg);
+                    }
+                    100% {
+                        -webkit-transform: rotate(360deg);
+                    }
+                }
+                
+                @keyframes spin {
+                    0% {
+                        transform: rotate(0deg);
+                    }
+                    100% {
+                        transform: rotate(360deg);
+                    }
+                }
+                
+                .animate-bottom {
+                    position: relative;
+                    -webkit-animation-name: animatebottom;
+                    -webkit-animation-duration: 1s;
+                    animation-name: animatebottom;
+                    animation-duration: 1s
+                }
+                
+                @-webkit-keyframes animatebottom {
+                    from {
+                        bottom: -100px;
+                        opacity: 0
+                    }
+                    to {
+                        bottom: 0px;
+                        opacity: 1
+                    }
+                }
+                
+                @keyframes animatebottom {
+                    from {
+                        bottom: -100px;
+                        opacity: 0
+                    }
+                    to {
+                        bottom: 0;
+                        opacity: 1
+                    }
+                }
+                /* Animation ends*/
+                
+                /*
+                    food menu desgine table starts
+                */
+                .wrap-table100 {
+                    width: 1170px;
+                }
+                
+                table {
+                    border-spacing: 1;
+                    border-collapse: collapse;
+                    background: #000;
+                    border-radius: 10px;
+                    overflow: hidden;
+                    width: 50%;
+                    margin: 0 auto;
+                    position: relative;
+                }
+                
+                table * {
+                    position: relative;
+                }
+                
+                table td,
+                table th {
+                    padding-left: 8px;
+                }
+                
+                table thead tr {
+                    height: 60px;
+                    background: #ffb400;
+                }
+                
+                table tbody tr {
+                    height: 50px;
+                }
+                
+                table tbody tr:last-child {
+                    border: 0;
+                }
+                
+                tbody tr:nth-child(even) {
+                    background-color: #000;
+                }
+                
+                tbody tr {
+                    font-family: OpenSans-Regular;
+                    font-size: 15px;
+                    color: #fff;
+                    line-height: 1.2;
+                    font-weight: unset;
+                }
+                 /*
+                    food menu desgine table ends
+                */
