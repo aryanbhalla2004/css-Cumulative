@@ -1,0 +1,131 @@
+<html>
+
+<head>
+    <title>CSS Cumulative | Menu</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- stylesheet-->
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+    <style>
+        #menu h2 {
+            top: 40px;
+        }
+    </style>
+</head>
+
+<body onload="myFunction()">
+    <!-- Screen loader-->
+    <div id="loading"></div>
+    <div id="homepage" class="animate-bottom" style="display: none;">
+        <!-- Header Start-->
+        <header id="sticknav">
+            <!-- logo-->
+            <h2 class="logo">Discovery<span class="yellow">.</span></h2>
+            <!--Menu Bar-->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="#" class="active">Menu</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Header end-->
+        <!-- slide content starts-->
+        <div id="slide_content">
+            <img src="images/food.png" alt="images of food">
+            <div id="slide">
+                <h1>Food<span class="yellow">&nbsp;Menu</span></h1>
+                <button class="slide_button" onclick="window.location.href='#menu'">Read More</button>
+            </div>
+        </div>
+        <!-- slide content ends-->
+        <div id="about">
+            <div id="menu">
+                <!-- Menu Table Starts-->
+                <h2 style="text-align: center; font-size: 40px;">Menu</h2>
+                <div class="table100">
+                    <table>
+                        <!--table header starts-->
+                        <thead>
+                            <tr class="table100-head">
+                                <th class="column3">Name</th>
+                                <th class="column4">Price</th>
+                            </tr>
+                        </thead>
+                        <!-- table header ends-->
+                        <!-- table data start-->
+                        <tbody>
+                            <tr>
+                                <td>Salade</td>
+                                <td>$5.00</td>
+                            </tr>
+                            <tr>
+                                <td>Pizza</td>
+                                <td>$10.00</td>
+                            </tr>
+                            <tr>
+                                <td>Fries</td>
+                                <td>$3.00</td>
+                            </tr>
+                            <tr>
+                                <td>Juice</td>
+                                <td>$9.00</td>
+                            </tr>
+                            <tr>
+                                <td>Chicken</td>
+                                <td>$20.00</td>
+                            </tr>
+                        </tbody>
+                        <!--table data ends-->
+                    </table>
+                </div>
+                <!-- Menu Table ends-->
+            </div>
+        </div>
+        <!-- divide start-->
+        <div id="divide">
+            <div id="circle"></div>
+        </div>
+        <!-- divide ends-->
+        <!-- footer start-->
+        <footer>
+            <div id="content">
+                <!--footer text start-->
+                <div id="footer_text">
+                    <h2 class="logo">Discovery<span class="yellow">.</span></h2><br>
+                    <p>Our resturent offer fresh and tastly food with natural nutrients. Our resturent is really hygienic to maintain a high standard</p>
+                </div>
+                <!--footer text end-->
+                <!--useful start-->
+                <div id="useful">
+                    <h3>Usefull Links</h3>
+                    <li><a href="about.html" style="color: white;">About Us</a></li>
+                    <li><a href="menu.html" style="color: white;">Menu</a></li>
+                    <li><a href="#" style="color: white;">Contact Us</a></li>
+                </div>
+                <!--useful end-->
+                <!--subscribe start-->
+                <div id="subscribe">
+                    <h3>Subscribe</h3>
+                    <input type="email" placeholder="Email" id="email" /><br>
+                    <button id="signup">Sign Up</button>
+                </div>
+                <!--subscribe ends-->
+                <!--copyright start-->
+                <div id="copyright">
+                    <p>&COPY; 2019 Aryan Bhalla Template</p>
+                </div>
+                <!--copyright ends-->
+            </div>
+        </footer>
+        <!-- footer ends-->
+    </div>
+    <script src="js/loading.js"></script>
+</body>
+
+</html>
